@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const string VERSION = "v1.1.0";
+const string VERSION = "v1.4.0";
 
 void printMenu() {
     cout << "=== Calculator " << VERSION << " ===\n";
