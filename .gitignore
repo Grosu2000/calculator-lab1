@@ -1,0 +1,42 @@
+# === Compiled C++ artifacts ===
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+
+# === Build directories ===
+build/
+bin/
+obj/
+cmake-build-*/
+Debug/
+Release/
+x64/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# === Package managers ===
+vcpkg_installed/
+conan/
+CMakeUserPresets.json
+
+# === Secrets ===
+*.key
+*.pem
+.env
+secrets.txt
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
